@@ -1,3 +1,8 @@
+# todo use Media3 ExoPlayer
+https://github.com/oguzhaneksi/Media3Demo.git
+https://github.com/androidx/media/blob/main/demos/compose/src/main/java/androidx/media3/demo/compose/MainActivity.kt
+
+
 # NCMusicDesktop
 
 小明非常喜欢网易云，去年刚用Jetpack Compose写了个仿网易云app [NCMusic](https://github.com/sskEvan/NCMusic) ，最近发现compose-jb正式版已经发布到了v1.3.1，
