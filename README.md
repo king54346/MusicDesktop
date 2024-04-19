@@ -1,7 +1,5 @@
-# todo use Media3 ExoPlayer
-https://github.com/oguzhaneksi/Media3Demo.git
-https://github.com/androidx/media/blob/main/demos/compose/src/main/java/androidx/media3/demo/compose/MainActivity.kt
-
+#todo
+https://github.com/JetBrains/compose-multiplatform/tree/master/experimental/components/VideoPlayer
 
 # NCMusicDesktop
 
