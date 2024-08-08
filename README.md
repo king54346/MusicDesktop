@@ -1,17 +1,10 @@
 #todo
 https://github.com/JetBrains/compose-multiplatform/tree/master/experimental/components/VideoPlayer
 
-# NCMusicDesktop
 
-小明非常喜欢网易云，去年刚用Jetpack Compose写了个仿网易云app [NCMusic](https://github.com/sskEvan/NCMusic) ，最近发现compose-jb正式版已经发布到了v1.3.1，
-又玩了一下Compose Desktop，决定搞了个桌面版的NCMusicDesktop，数据源还是来自[Binaryify](https://github.com/Binaryify)大佬的[NeteaseCloudMusicApi](https://github.com/Binaryify/NeteaseCloudMusicApi)～
-
-由于以前没有开发桌面应用的经验，索性想按照Android jetpack的套路来开发，然而Navigation、Lifecycle 、ViewModel、LiveData等等这些在compose-jb中，暂时通通没有～ 
-不要慌，一番查找在掘金上看到一篇文章[《推销 Compose 跨平台 Navigation：PreCompose》](https://juejin.cn/post/7122056172084920334)，
 讲了[Precompose](https://github.com/Tlaster/PreCompose)这个跨平台Navigation框架的使用， 它基本复刻了Jetpack Navigation、Lifecycle、ViewModel这些组件，
 使用方式也基本保持一致，美滋滋！当然LiveData已经被废弃了，推荐使用Flow代替～至于网络请求，Retrofit照用不误，又一次美滋滋～
 
-### 怎么用Android老套路来写Desktop应用
 - 老规矩，先定义一波BaseResult、BaseViewModel、ViewStateComponent(页面状态切换组件)
 ```
 代码： 略
